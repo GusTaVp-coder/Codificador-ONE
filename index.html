@@ -5,26 +5,29 @@
         <title>Codificador Alura</title>
         <meta bane="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./estilos/reset.css">
+        <link rel="stylesheet" href="./estilos/home.css">
     </head>
     <body>
 
-        <div>
+        <div class="div-logo">
             <h1>
                 <img src="./imagens/logo-alura.png" alt="Logo Alura">
             </h1>
         </div>
 
         <section>
-            <form>
-                <textarea name="mensagem" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+            <form class="formulario">
+                <textarea class="campo-mensagem" name="mensagem" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
 
-                <button>Criptografar</button>
-                <button>Descriptografar</button>
+                <div class="btns">
+                    <button class="btn">Criptografar</button>
+                    <button class="btn">Descriptografar</button>
+                </div>
             </form>
         </section>
 
         <div>
-            <textarea name="resposta" cols="30" rows="10"></textarea>
+            <textarea class="campo-resposta" name="resposta" cols="30" rows="10" disabled></textarea>
         </div>
     </body>
 </html>
